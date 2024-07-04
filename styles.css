@@ -360,10 +360,6 @@ section{
     border-radius: 0.5rem;
 }
 
-@media (max-width: 991px){
-    
-    
-}
 @media (min-width: 885px) and (max-width: 991px){
     .skills-content{
         grid-template-columns: repeat(2, 2fr);
@@ -438,7 +434,9 @@ section{
 
 /* ---CONTACT--- */
 
-
+.contact{
+    margin-bottom: 7rem;
+}
 .contact-content{
     display: flex;
     justify-content: center;
@@ -527,7 +525,6 @@ footer{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 3rem;
     padding: 2rem 9%;
     background: #081b29;
     color: #fff;
